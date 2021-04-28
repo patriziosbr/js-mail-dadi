@@ -12,16 +12,16 @@ for ( var i = 0; i < listMail.length; i++) {
         // console.log('NO');
         document.getElementById('result').innerHTML = "no";
     }
-};
+}
 
 for ( var i = 0; i < listMail.length; i++) {
     // console.log(listMail[i]);
     if (askMail != listMail[i] ) {
-        console.log('non presente');
+        // console.log('non presente');
         document.getElementById('not-same').innerHTML = "non presente";
     } else {
-        console.log('presente');
+        // console.log('presente');
         document.getElementById('not-same').innerHTML = "presente";
         break;
     }
-};
+}
